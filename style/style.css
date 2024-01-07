@@ -8,6 +8,10 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+span {
+    color: red;
+}
+
 /* ______________________________________________HEADER */
 header {
     height: 100vh;
@@ -86,30 +90,55 @@ img {
     justify-content: space-around;
     border-radius: 8px;
 }
+
 .welcome_des {
     max-width: 450px;
 }
+
 .welcome_des h1 {
     color: #FFF;
     font-size: 50px;
     font-weight: 300;
     margin-bottom: 20px;
 }
+
 .welcome_des h4 {
     color: rgba(255, 255, 255, 0.80);
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 20px;
 }
+
 .btn {
     font-size: 20px;
     padding: 10px 20px;
     border: 0;
+    font-weight: 600;
     border-radius: 6px;
-    background-color: red;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.932);
 }
+
 img {
     height: 400px;
 }
 
-/*  */
+/* _________________________________________EVENT SECTION */
+.event {
+    padding: 80px 110px;
+
+}
+
+.event_des {
+    text-align: center;
+    border-radius: 8px;
+    padding: 100px 385px;
+    background-color: rgba(255, 0, 0, 0.10);
+}
+
+.event_des h2 {
+    color: #070211;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
