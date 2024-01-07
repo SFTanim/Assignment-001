@@ -68,8 +68,48 @@ header {
     font-size: 48px;
     font-weight: 700;
 }
-img{
+
+img {
     height: 450px;
 }
 
-/* ____________________________________________________ */
+/* _________________________________________________SECTION WELCOME */
+.welcome_section {
+    padding: 0px 20px;
+    height: 85vh;
+    margin: 50px 110px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 80%), url("../resources/Vectorrr.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+.welcome_des {
+    max-width: 450px;
+}
+.welcome_des h1 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.welcome_des h4 {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 6px;
+    background-color: red;
+}
+img {
+    height: 400px;
+}
+
+/*  */
