@@ -51,6 +51,7 @@ header {
     flex-direction: column;
     text-align: center;
     gap: 15px;
+    margin: 80px 0px;
 }
 
 .discount h1 {
@@ -199,7 +200,7 @@ header {
 
 /* ___________________________________________ALBUM SECTIOn */
 .album {
-    margin: 50px 110px;
+    margin: 100px 110px;
 }
 
 .album h1 {
@@ -240,16 +241,21 @@ p {
     border-radius: 20px;
     height: 380px;
 }
+.album img:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px 15px rgba(218, 102, 123, 1);
+}
 
 /* _______________________________________Subscribe SECTION */
 .subscribe {
     padding: 50px;
-    margin: 50px 110px;
+    margin: 100px 110px;
     text-align: center;
     display: flex;
     justify-content: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.13);
+    box-shadow: 0px 0px 40px -5px #3a0d96;
 }
 
 .subscribe_image img {
@@ -270,7 +276,7 @@ p {
 }
 
 .sub_input {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 
 }
