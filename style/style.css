@@ -238,3 +238,9 @@ img {
     border-radius: 20px;
     height: 380px;
 }
+
+/* _______________________________________Subscribe SECTION */
+.subscribe{
+    border: 2px solid black;
+    text-align: center;
+}
