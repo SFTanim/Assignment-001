@@ -221,7 +221,9 @@ img {
     font-weight: 400;
 }
 
-.album h1, h4, p {
+.album h1,
+h4,
+p {
     margin-bottom: 15px;
 }
 
@@ -240,7 +242,60 @@ img {
 }
 
 /* _______________________________________Subscribe SECTION */
-.subscribe{
-    border: 2px solid black;
+.subscribe {
+    padding: 50px;
+    margin: 50px 110px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.13);
+}
+
+.subscribe_image img {
+    height: 130px;
+}
+
+.subscribe h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe p {
+    max-width: 700px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sub_input {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sub_input input[type="email"] {
+    border: 0;
+    padding: 20px 30px;
+    padding-right: 125px;
+    border-radius: 50px 0px 0px 50px;
+    font-size: 20px;
+}
+
+.sub_input input[type="submit"] {
+    background-color: red;
+    border: 0;
+    padding: 20px 60px;
+    padding-left: 70px;
+    border-radius: 0px 50px 50px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.subscribe_image,
+h1,
+p {
+    margin-bottom: 30px;
 }
